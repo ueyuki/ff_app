@@ -37,10 +37,12 @@ gem 'bulma-rails', '~> 0.4.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3'
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+ gem 'selenium-webdriver'
 end
 
 group :development do
